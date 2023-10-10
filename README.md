@@ -29,11 +29,11 @@ The technique involves taking two images—a content image(C) and a style refere
     * The first part is called the <i>**Content Loss**</i> function which is a function of the Content Image and the Generated Image.It measures how similar is the contents of Generated image to the content of the Content Image.
     * The second part is the <i>**Style Loss**</i> function which is a function of the Style Reference Image and the Generated Image.It measures how similar is the style of the Generated image to the style of the Style Reference Image
 * We have used the pretrained **VGG-19** ConvNet owing to its ability to extract more complex features from both content and style images.
-  * The feature maps of the style image extracted from the layers marked in **red** are used to store the style of the image S.
-  * The feature map of the content image in the layer marked in **blue** is used to extract the content of the image C.
+  * The feature maps of the style image extracted from the layers marked in **red** are used to store the style of the style image S.
+  * The feature map of the content image in the layer marked in **blue** is used to extract the content of the content image C.
   
 <p align="center"><img src="https://github.com/tphanir/NeuralStyleFusion/assets/125972587/0b94c4b7-4559-46f5-bf1b-1eb90567836f"></p>
-* 
+
   
 
 
