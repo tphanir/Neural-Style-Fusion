@@ -14,7 +14,10 @@ The aim of the project was to implement the **Neural Style Transfer** Algorithm 
 ## The Algorithm
 The technique involves taking two images—a content image(C) and a style reference image(S) (such as an artwork by a famous painter)—and blending them together such that the output image(G) looks like the content image, but “painted” in the style of the style reference image (as shown below).
 
-<img src="https://github.com/tphanir/NeuralStyleFusion/assets/125972587/f66df004-b4a4-4fcd-9809-7f0035691707">
+![New Project (3)](https://github.com/tphanir/NeuralStyleFusion/assets/125972587/9110fc55-247a-4dca-b8c5-960ac96f7fc1)
+
+
+
 
 ### Procedure
 * We first define a Cost Function (J) that measures how good is our generated image (G).
@@ -26,12 +29,14 @@ The technique involves taking two images—a content image(C) and a style refere
     * The first part is called the <i>**Content Loss**</i> function which is a function of the Content Image and the Generated Image.It measures how similar is the contents of Generated image to the content of the Content Image.
     * The second part is the <i>**Style Loss**</i> function which is a function of the Style Reference Image and the Generated Image.It measures how similar is the style of the Generated image to the style of the Style Reference Image
 * We have used the pretrained **VGG-19** ConvNet owing to its ability to extract more complex features from both content and style images.
-  * The layers marked in red were used to calculate the style of the image S.
-  * The layer marked in blue was used to extract the content of the image C.
+  * The feature maps of the style image extracted from the layers marked in **red** are used to store the style of the image S.
+  * The feature map of the content image in the layer marked in **blue** is used to extract the content of the image C.
   
+<p align="center"><img src="https://github.com/tphanir/NeuralStyleFusion/assets/125972587/0b94c4b7-4559-46f5-bf1b-1eb90567836f"></p>
+* 
   
-  ![NEURAL STYLE FUSION](https://github.com/tphanir/NeuralStyleFusion/assets/125972587/b4177956-cbf7-4ef2-83c7-52aff5b873a5)
-   
+
+
 
 
   
