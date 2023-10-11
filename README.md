@@ -8,8 +8,8 @@ The aim of the project was to implement the **Neural Style Transfer** Algorithm 
 2. With the knowledge of Gradient Descent Algorithm and other primary concepts, we trained a Two Layer Neural Network on MNIST Dataset to classify digits, from scratch using Numpy.
 3. Next, we learnt many Optimization Algorithms and tuning of Hyperparameters to refine the Neural Network.Further, we implemented a more efficient Neural Network using the PyTorch Framework to classify the digits.
 4. Then, we learnt the working of Convolutional Neural Networks and studied various CNN Architectures.
-5. With a good understanding of CNN's, after many trials, we built our own custom architecture on MNIST Dataset that efficiently classifyS the handwritten digits with high accuracy.
-6. Then we learnt and implemented the Neural Style Transfer Algorithm using PyTorch framework.
+5. With a good understanding of CNN's, after many trials, we built our own custom architecture on MNIST Dataset that efficiently classifiea the handwritten digits with high accuracy.
+6. We then learnt and implemented the Neural Style Transfer Algorithm using PyTorch framework.
 
 ## The Algorithm
 The technique involves taking two images—a content image(C) and a style reference image(S) (such as an artwork by a famous painter)—and blending them together such that the output image(G) looks like the content image, but “painted” in the style of the style reference image (as shown below).
