@@ -53,12 +53,8 @@ The technique involves taking two images—a content image(C) and a style refere
 - Python
 - Numpy
 - PyTorch
-- Torchvision
 - PIL
 - Matplotlib
-
-  
-## How to Run the Project
 
 
 
